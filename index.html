@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #8fbc8f;
+            color: #111111;
+            animation: fadeIn 1s ease;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .container img {
+            width: 300px;
+            height: auto;
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            animation: moveUpDown 4s ease-in-out infinite;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        /* Links */
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            border: 2px solid #111111; /* Moldura */
+            border-radius: 5px; /* Borda arredondada */
+            transition: all 0.3s ease;
+            color: #111111;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            background-color: #111111;
+            color: #8fbc8f;
+        }
+
+        /* Transições suaves */
+        a {
+            transition: all 0.3s ease;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+
+        /* Animação para aparecer */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Animação para subir e descer */
+        @keyframes moveUpDown {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="C:\Users\Carlos\Desktop\PROJETO HTM.CSS\Foto de perfil simples para o Instagram e redes sociais (2).png" alt="Minha Imagem">
+        <h1>Carlos Alexandre</h1>
+        <p>Projeto de Práticas Sustentáveis em Escolas Públicas e Privadas na Validação de Game Educativo</p>
+        <div class="portfolio-text">
+            <p>Descrição:<br>
+            O projeto visa implementar práticas sustentáveis em escolas públicas e privadas, utilizando um game educativo como ferramenta de ensino e conscientização ambiental. <br>
+            O game está em fase de desenvolvimento e será utilizado para engajar os alunos e promover a educação ambiental de forma lúdica e interativa.</p>
+            <p>Objetivos:<br>
+            - Implementar práticas sustentáveis em escolas públicas e privadas.<br>
+            - Desenvolver um game educativo que aborde temas relacionados à sustentabilidade e meio ambiente.<br>
+            - Validar o game como uma ferramenta eficaz para promover a conscientização ambiental entre os alunos.</p>
+            <p>Responsabilidades:<br>
+            - Colaboração na concepção e planejamento do projeto.<br>
+            - Participação ativa no desenvolvimento e design do game educativo.<br>
+            - Coleta de feedback dos usuários para aprimoramento contínuo do jogo.<br>
+            - Colaboração na elaboração de relatórios e documentação do projeto.</p>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/CarlosBrito07" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/carlos-alexandre-5259b6250" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+</body>
+</html>
